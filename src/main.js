@@ -14,4 +14,4 @@ let borderPadding = borderUISize / 3;
 let starSpeed = 2.5;
 
 // reserve keyboard bindings
-let keyF, keyR, keyLEFT, keyRIGHT;
+let keyF, keyR, keyLEFT, keyRIGHT, keyA, keyD, keySPACE;
