@@ -38,7 +38,7 @@ class Play extends Phaser.Scene {
 
 
         //inserting music
-        this.sound.play('GameAudio', {volume: 0.3});
+        this.sound.play('GameAudio', {volume: 0.2});
 
         //place starfield
         this.starfield = this.add.tileSprite(0, 0, 640, 480, 'starfield').setOrigin(0, 0);
