@@ -32,7 +32,7 @@ class Play extends Phaser.Scene {
             time = 60;
         }
         if(game.settings.gameTimer == 45000){
-            multi = true;
+
             time = 45;
         }
 
@@ -122,7 +122,7 @@ class Play extends Phaser.Scene {
        let minusTime = setInterval(updateTime, 1000);
 
        function updateTime(){
-           console.log("In here");
+           //console.log("In here");
            if(time > 0){
                time--;
            }
